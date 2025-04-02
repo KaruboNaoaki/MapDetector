@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT"
+
+[[mods]]
+modId="mapdetector"
+version="1.0.0"
+displayName="Map Detector"
+authors="Your Name"
+description='''
+A simple mod that detects when you have 6 or more maps in your hotbar.
+Sends a notification when this threshold is reached.
+'''
+
+[[dependencies.mapdetector]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.mapdetector]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"
